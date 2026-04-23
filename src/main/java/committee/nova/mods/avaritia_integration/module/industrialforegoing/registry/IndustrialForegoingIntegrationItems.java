@@ -6,7 +6,6 @@ import committee.nova.mods.avaritia_integration.AvaritiaIntegration;
 import committee.nova.mods.avaritia_integration.init.registry.AIItems;
 import committee.nova.mods.avaritia_integration.module.industrialforegoing.item.AddonInfo;
 import committee.nova.mods.avaritia_integration.module.industrialforegoing.item.AddonItem;
-import net.minecraft.ChatFormatting;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
