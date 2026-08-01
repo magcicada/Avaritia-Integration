@@ -23,8 +23,11 @@ jobs:
       - name: Grant execute permission
         run: chmod +x gradlew
 
+      - name: Clean corrupted Forge caches
+        run: rm -rf ~/.gradle/caches/forge_gradle/
+
       - name: Build with Gradle
-        run: ./gradlew build
+        run: ./gradlew build --no-daemon
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v6
