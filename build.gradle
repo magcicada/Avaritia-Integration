@@ -68,6 +68,8 @@ minecraft {
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+    
     maven {
         url 'https://modmaven.dev/'
     }
